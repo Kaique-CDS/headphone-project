@@ -1,0 +1,41 @@
+.phone {
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+.product{
+    display: grid;
+    grid-template-rows: 13rem 4rem 9rem auto;
+    font-family: "Archivo Black";
+    color: white;
+    font-size: 50px;
+}
+
+.star{
+    display: flex;
+}
+.product button{
+    color: white;
+    background-color: black;
+    border: none;
+    height: 55px;
+    width: 230px;
+    font-family: "Archivo Black";
+    cursor: pointer;
+}
+.product-image{
+    display: grid;
+}
+
+.product-image img{
+    grid-column: 1 ;
+    grid-row: 1;
+    width: 100%;
+}
+
+.product-image .gradient{
+    grid-column: 1 ;
+    grid-row: 1;
+    background-color: blue;
+}

@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 4rem;
+    padding: 3rem 10rem; 
+}
+
+.header p{
+    color: white;
+    font-family: 'Archivo Black';
+}
+.header svg{
+    color: #7a0e0e;
+}
+p:hover{
+    cursor: pointer;
+    color: #7a0e0e;
+}
